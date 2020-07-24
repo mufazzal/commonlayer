@@ -1,0 +1,13 @@
+service: UAP-libs
+provider:
+  name: aws
+  stage: beta
+  region: us-east-1  
+  runtime: nodejs12.x
+  
+layers:
+  commonLibs:
+    path: 'commons'
+
+     
+    
